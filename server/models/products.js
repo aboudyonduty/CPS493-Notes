@@ -19,7 +19,7 @@ const data = require("../data/products.json");
  * @property {string[]} images - The product's images.
  */
 
-const COLLECTION_NAME = 'products';
+const COLLECTION_NAME = 'Products';
 async function getCollection() {
   const db = await connect();
   return db.collection(COLLECTION_NAME);

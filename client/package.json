@@ -10,14 +10,17 @@
     "type-check": "vue-tsc --noEmit -p tsconfig.app.json --composite false"
   },
   "dependencies": {
-    "bulma":"^0.9.4",
     "@fortawesome/fontawesome-free": "^5.15.4",
-    "vue-toastification": "2.0.0-rc.5",
+    "bulma": "^0.9.4",
+    "dotenv": "^16.3.1",
     "vue": "^3.3.4",
-    "vue-router": "^4.2.4"
+    "vue-router": "^4.2.4",
+    "vue-toastification": "2.0.0-rc.5"
   },
   "devDependencies": {
     "@tsconfig/node18": "^18.2.2",
+    "@types/google.accounts": "^0.0.14",
+    "@types/google.maps": "^3.45.6",
     "@types/node": "^18.17.17",
     "@vitejs/plugin-vue": "^4.3.4",
     "@vitejs/plugin-vue-jsx": "^3.0.2",
